@@ -1,0 +1,1 @@
+"xpack-openocd-0.11.0-4/bin/openocd.exe" -f "./cmsis-dap.cfg" -f "./nrf51.cfg" -c init -c halt -c "nrf51 mass_erase" -c "program bl_settings_sd130_app2.0.hex verify reset" -c shutdown
